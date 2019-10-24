@@ -33,10 +33,6 @@ end
 
 def valid_move?(board, index)
   
-  if !index.is_a? Integer
-    return false
-  end
-  
   if board.at(index) == " "
     return true
   else
