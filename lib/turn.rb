@@ -18,10 +18,10 @@ def turn(board)
   if valid_move?(board, user_input)
     
   
-    puts "#{user_input}"
+    puts "#{user_input} input 1"
     
   else
-    turn(board)
+    puts "#{user_input} input 2"
   end
 
 end
@@ -38,7 +38,6 @@ def valid_move?(board, index)
     return false
   end
   
-  #if index.between?(0, 9) && board.at(index) == " "
   if board.at(index) == " "
     return true
   else
