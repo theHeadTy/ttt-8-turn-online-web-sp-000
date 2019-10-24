@@ -17,7 +17,6 @@ def turn(board)
   
   if valid_move?(board, user_input)
     
-  
     puts "#{user_input} input 1"
     
   else
